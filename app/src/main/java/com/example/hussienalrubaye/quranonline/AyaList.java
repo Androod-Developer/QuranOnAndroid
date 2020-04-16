@@ -53,8 +53,9 @@ public class AyaList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aya_list);
-        //get Recites
+        //get Recitesn gh
         Bundle b=getIntent().getExtras();
+
         RecitesName=b.getString("RecitesName");
         listAya =(ListView) findViewById ( R.id.listView) ;
 //get list of recites
